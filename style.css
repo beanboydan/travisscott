@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #BF9A7B;
+}
+
+h1 {
+	font-family: 'Slabo 27px', serif;
+}
+
+h2 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
+
+.hero {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	padding: 5%;
+}
+
+.hero h1 {
+	width: 100%;
+	text-align: center;
+	padding: 5%;
+	color: #C43636;
+}
+
+.mainphoto {
+	background-image: url(travisscott.jpeg);
+	background-size: cover;
+	padding: 400px 0;
+	background-attachment: fixed;
+}
+
+.bio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	padding: 5%;
+	
+}
+
+.bio h1 {
+	width: 100%;
+	text-align: center;
+	padding: 5%;
+	color: #C43636;
+}
+
+.bio img {
+	width: 550px;
+	height: 400px;
+	
+}
+
+.bio-text {
+	width: 50%;
+}
+
+.albums {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.albums h1 {
+	width: 100%;
+	text-align: center;
+	padding: 5%;
+	color: #C43636;
+}
+
+.album {
+	width: 26%;
+	text-align: center;
+}
+
+.album img {
+	width: 100%;
+	height: auto;
+}
+
+.dates {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 5%;
+}
+
+.dates h1 {
+	width: 100%;
+	text-align: center;
+	padding: 5%;
+	color: #C43636;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+/* Clear floats after the columns */
+.colums{
+  display: table;
+  clear: both;
+}
+
+.noti {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 5%;
+}
+
+.noti h1 {
+	width: 100%;
+	text-align: center;
+	padding: 5%;
+	color: #C43636;
+}
+
+.noti h2 {
+	float: left;
+}
+
+.noti img {
+	width: 550px;
+	height: 400px;
+	
+}
+
+.noti-text {
+	width: 50%;
+}
